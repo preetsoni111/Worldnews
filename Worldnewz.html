@@ -269,7 +269,7 @@
     
   let news =  document.getElementById("news");
   async function data(){
-            let url = "https://newsapi.org/v2/everything?q=tesla&from=2023-05-24&sortBy=publishedAt&apiKey=3c011b7a514d40f591c865f0585822e9";
+            let url = "https://newsapi.org/v2/everything?q=tesla&from=2023-05-24&sortBy=publishedAt&apiKey={Add your Api Key here}";
             let data = await fetch(url);
             let json = await data.json();
             console.log(data);
